@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+
+}
+* a{
+    text-decoration: none;
+}
+* li{
+    list-style: none;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.gq.com/photos/65cfbf6e8aa1eb1e0bb7ecf4/16:9/w_1280,c_limit/gerald-art.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+filter: brightness(45%);
+}
+.menu{
+    position: relative;
+    width: 85%;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    font-size: 3rem;
+    color: rgb(249, 248, 248);
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    padding: 0 17px;
+    color: rgb(249, 248, 248);
+    font-size: 16px;
+}
+.content{
+    font-size: 100px;
+    color: rgb(249, 248, 248);
+}
+.bgi::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/625f07431d94d27cc9db7c81/360e8f92-ad8c-466c-bc71-1cfcc45ae027/DSC09361.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+filter: brightness(45%);
+}
+.bgb::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.timeout.com/images/100909731/image.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+filter: brightness(45%);
+}
+.bga::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://previews.123rf.com/images/jackf/jackf1711/jackf171107252/90460818-portrait-of-couple-with-teenage-boy-with-shopping-bags-with-purchases-in-shop.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+filter: brightness(45%);
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
